@@ -1,16 +1,13 @@
 # ib_tech_test
 
-Interactive Brokers tech test
+Independent Reserve tech test
 
-## Getting Started
+Wasn't too sure how to test painting on the canvas. Would usually use automation testing to confirm
+labels were in the correct position, and manual regression testing using a known curve/ chart and
+manually confirming the chart looks correct.
 
-This project is a starting point for a Flutter application.
+Could potentially generate a golden file for a specific curve, and run on a device which we know the
+exact size of the canvas which the chart's being drawn.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Tests can be run using:
+flutter test
